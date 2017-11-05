@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <sh.whisper.ui.InterceptScrollDownParentLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/WRed_v5" android:layout_gravity="top" android:id="@id/debug_info_textview" android:background="@color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/banner_container" android:background="@color/Black" android:paddingTop="1.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/banner_height_plus_divider" />
+</FrameLayout>

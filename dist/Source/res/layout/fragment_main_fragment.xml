@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.view.ViewPager android:id="@id/viewpager" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <sh.whisper.ui.WSlidingTabLayout android:layout_gravity="bottom" android:id="@id/bottom_bar" android:layout_width="fill_parent" android:layout_height="@dimen/create_button_size_with_margin" />
+    <FrameLayout android:id="@id/secret_whisper_nux_container" android:background="@color/TranslucentBlack" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:gravity="center" android:layout_gravity="bottom" android:id="@id/secret_whisper_nux" android:background="@drawable/pointy_box" android:padding="2.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="280.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="90.0dip">
+            <android.support.v4.view.ViewPager android:id="@id/nux_viewpager" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <android.support.design.widget.TabLayout android:layout_gravity="bottom" android:id="@id/nux_tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" whisper:tabIndicatorHeight="0.0dip" whisper:tabBackground="@drawable/tab_selector" whisper:tabGravity="center" />
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/secret_whisper_sent_tooltip_container" android:background="@color/TranslucentBlack" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" layout="@layout/secret_whisper_sent_tooltip" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="bottom|center" android:id="@id/animating_create_button" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/create" />
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="bottom|center" android:id="@id/lottie_create_button" android:clickable="false" android:layout_width="wrap_content" android:layout_height="@dimen/create_button_size_with_margin" whisper:lottie_fileName="create_button_static.json" whisper:lottie_autoPlay="false" whisper:lottie_progress="0.0" />
+</FrameLayout>

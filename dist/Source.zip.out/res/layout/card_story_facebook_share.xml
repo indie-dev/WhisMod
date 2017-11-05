@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/card_background_white_basic" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <sh.whisper.ui.WTextView android:textSize="19.0sp" android:textColor="@color/WDarkGrey_v5" android:gravity="center" android:id="@id/text_view" android:paddingLeft="40.0dip" android:paddingRight="40.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/card_story_facebook_share_text" whisper:weight="medium" />
+    <sh.whisper.ui.WButton android:textSize="15.0sp" android:textColor="@color/whismod" android:layout_gravity="center" android:id="@id/button" android:background="@drawable/com_facebook_button_background" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/card_story_facebook_share_button" android:drawableLeft="@drawable/com_facebook_button_icon" android:drawablePadding="10.0dip" whisper:weight="bold" />
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@id/ptr_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@id/ptr_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v4.widget.NestedScrollView android:background="@color/White" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/subscribers_empty_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+                <ImageView android:id="@id/image_view" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_marginBottom="20.0dip" android:src="@drawable/no_internet" android:scaleType="centerInside" />
+                <sh.whisper.ui.WTextView android:textSize="16.0sp" android:textColor="@color/WMediumGrey_v5" android:gravity="center" android:id="@id/text_view_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:text="@string/empty_generic_error_1" android:lineSpacingExtra="4.0dip" whisper:weight="medium" />
+                <sh.whisper.ui.WTextView android:textSize="16.0sp" android:textColor="@color/WMediumGrey_v5" android:gravity="center" android:id="@id/text_view_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:text="@string/empty_generic_error_2" android:lineSpacingExtra="4.0dip" />
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</merge>

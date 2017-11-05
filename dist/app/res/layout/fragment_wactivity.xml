@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/White" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <sh.whisper.ui.BackNavBar android:id="@id/back_nav_bar_activity" android:layout_width="fill_parent" android:layout_height="@dimen/abs__action_bar_default_height" android:layout_alignParentTop="true" whisper:rightIconDrawable="@drawable/overflow" whisper:iconMargin="@dimen/top_bar_icon_margin" whisper:text="@string/activity_title" whisper:textSize="@dimen/top_bar_font_size" whisper:textPosition="left" whisper:textBackground="@color/transparent" />
+    <include layout="@layout/pin_protected_view" />
+    <view android:id="@id/ptr_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/back_nav_bar_activity" class="sh.whisper.fragments.WActivityFragment$WActivitySwipeRefreshLayout">
+        <FrameLayout android:id="@id/activity_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:id="@id/activity_list_view" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/transparent" android:scrollingCache="true" android:divider="@null" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/activity_empty_list_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="118.0dip" android:layout_marginBottom="@dimen/create_button_size_with_margin">
+                <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="20.0dip" android:src="@drawable/no_activity" />
+                <sh.whisper.ui.WTextView android:textSize="20.0sp" android:textColor="@color/WMediumGrey_v5" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="10.0dip" android:text="@string/activity_empty_view_title" whisper:weight="medium" />
+                <sh.whisper.ui.WTextView android:textSize="16.0sp" android:textColor="@color/WMediumGrey_v5" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:text="@string/activity_empty_view_desc" />
+            </LinearLayout>
+        </FrameLayout>
+    </view>
+    <sh.whisper.ui.WActivityFragmentPopupMenu android:id="@id/activity_popup_menu" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <FrameLayout android:id="@id/activity_top_bar_shadow" android:background="@drawable/gradient_gray_transparent_270" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_below="@id/back_nav_bar_activity" />
+</RelativeLayout>

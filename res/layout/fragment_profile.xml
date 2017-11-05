@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/White" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <sh.whisper.ui.ProfileBackNavBar android:id="@id/top_bar" android:layout_width="fill_parent" android:layout_height="@dimen/abs__action_bar_default_height" whisper:leftIconDrawable="@drawable/back_arrow" whisper:iconMargin="@dimen/top_bar_icon_margin" whisper:text="@string/profile_fragment_title" whisper:textSize="@dimen/top_bar_font_size" whisper:textPosition="left" whisper:textBackground="@color/transparent" />
+    <FrameLayout android:background="@drawable/gradient_gray_transparent_270" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:background="@color/White" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <sh.whisper.ui.WTextView android:textSize="@dimen/chat_settings_button_text_size" android:textColor="@color/WLightGrey_v5" android:gravity="center" android:id="@id/text_view_info" android:background="@color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="15.0dip" android:text="@string/profile_fragment_first_time_info" whisper:weight="normal" />
+            <FrameLayout android:background="@color/LightGrey" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <sh.whisper.ui.WTextView android:textSize="@dimen/chat_settings_label_text_size" android:textColor="@color/WDarkGrey_v5" android:gravity="center" android:id="@id/text_view_my_age" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:text="@string/profile_my_age" whisper:weight="medium" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/White" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <sh.whisper.ui.WButton android:id="@id/my_age_15_17" android:text="@string/profile_age_15_17" style="@style/chat_profile_capsule_button" />
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <sh.whisper.ui.WButton android:id="@id/my_age_18_20" android:text="@string/profile_age_18_20" style="@style/chat_profile_capsule_button" />
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <sh.whisper.ui.WButton android:id="@id/my_age_21_25" android:text="@string/profile_age_21_25" style="@style/chat_profile_capsule_button" />
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <sh.whisper.ui.WButton android:id="@id/my_age_26_29" android:text="@string/profile_age_26_29" style="@style/chat_profile_capsule_button" />
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/White" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip">
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0" />
+                <sh.whisper.ui.WButton android:id="@id/my_age_30_35" android:text="@string/profile_age_30_35" style="@style/chat_profile_capsule_button" />
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <sh.whisper.ui.WButton android:id="@id/my_age_36_44" android:text="@string/profile_age_36_44" style="@style/chat_profile_capsule_button" />
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <sh.whisper.ui.WButton android:id="@id/my_age_45" android:text="@string/profile_age_45" style="@style/chat_profile_capsule_button" />
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0" />
+            </LinearLayout>
+            <FrameLayout android:background="@color/LightGrey" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <sh.whisper.ui.WTextView android:textSize="@dimen/chat_settings_label_text_size" android:textColor="@color/WDarkGrey_v5" android:gravity="center" android:id="@id/text_view_my_gender" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:text="@string/profile_my_gender" whisper:weight="medium" />
+            <LinearLayout android:gravity="center" android:background="@color/White" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip">
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0" />
+                <sh.whisper.ui.WButton android:id="@id/button_my_gender_male" android:text="@string/profile_gender_male" style="@style/chat_profile_capsule_button" />
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <sh.whisper.ui.WButton android:id="@id/button_my_gender_female" android:text="@string/profile_gender_female" style="@style/chat_profile_capsule_button" />
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <sh.whisper.ui.WButton android:id="@id/button_my_gender_other" android:text="@string/profile_gender_other" style="@style/chat_profile_capsule_button" />
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0" />
+            </LinearLayout>
+            <FrameLayout android:background="@color/LightGrey" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <sh.whisper.ui.WTextView android:textSize="@dimen/chat_settings_label_text_size" android:textColor="@color/WDarkGrey_v5" android:gravity="center" android:id="@id/text_view_my_location" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:text="@string/profile_my_location" whisper:weight="medium" />
+            <sh.whisper.ui.WTextView android:textSize="@dimen/chat_settings_button_text_size" android:textColor="@color/WLightGrey_v5" android:gravity="center" android:id="@id/text_view_my_location_hint" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="@string/profile_my_location_hint" />
+            <sh.whisper.ui.WTextView android:textSize="@dimen/chat_settings_button_text_size" android:textStyle="bold" android:textColor="@color/White" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/button_my_location_off" android:background="@drawable/rounded_button_purple" android:paddingLeft="30.0dip" android:paddingTop="5.0dip" android:paddingRight="30.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="42.0dip" android:layout_marginBottom="15.0dip" android:text="@string/profile_turn_on_location" android:singleLine="true" android:textAllCaps="true" />
+            <sh.whisper.ui.WTextView android:textSize="@dimen/chat_settings_button_text_size" android:textStyle="bold" android:textColor="@color/White" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/button_my_location_on" android:background="@drawable/rounded_button_light_grey" android:paddingLeft="30.0dip" android:paddingTop="5.0dip" android:paddingRight="30.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="42.0dip" android:layout_marginBottom="15.0dip" android:text="VENICE, CA" android:singleLine="true" android:textAllCaps="true" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

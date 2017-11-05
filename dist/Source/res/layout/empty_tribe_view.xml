@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="260.0dip" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginBottom="@dimen/create_button_size_single_feed_view_plus_margin">
+        <sh.whisper.ui.WTextView android:textSize="15.0sp" android:textColor="@color/WMediumGrey_v5" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/empty_tribe_tooltip_title" whisper:weight="medium" />
+        <sh.whisper.ui.WTextView android:textSize="20.0sp" android:textColor="@color/WDarkGrey_v5" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/empty_tribe_tooltip_subtitle" android:drawableBottom="@drawable/blank_group_chevron" android:drawablePadding="25.0dip" whisper:weight="medium" />
+    </LinearLayout>
+</merge>

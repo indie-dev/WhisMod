@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/whismod" android:layout_width="fill_parent" android:layout_height="@dimen/search_result_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <ImageButton android:id="@id/check_box" android:background="@color/TranslucentWhite" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginRight="13.0dip" android:src="@drawable/radio_button" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <sh.whisper.ui.WTextView android:textSize="18.0sp" android:textColor="@color/WDarkGrey_v5" android:gravity="bottom" android:id="@id/friend_name" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="13.0dip" android:text="Adelle Gregory" android:layout_toLeftOf="@id/check_box" whisper:weight="medium" />
+    <sh.whisper.ui.WTextView android:textSize="13.0sp" android:textColor="@color/WLightGrey_v5" android:gravity="top" android:id="@id/friend_number" android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_marginLeft="13.0dip" android:text="111-222-3333" android:layout_toLeftOf="@id/check_box" android:layout_below="@id/friend_name" whisper:weight="normal" />
+    <View android:id="@id/cell_divider" android:layout_alignParentBottom="true" style="@style/Divider" />
+</RelativeLayout>

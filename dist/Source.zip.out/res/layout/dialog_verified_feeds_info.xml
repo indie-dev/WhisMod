@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/whismod" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <ImageButton android:layout_gravity="center|right|top" android:id="@id/exit_dialog" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/exit" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingTop="30.0dip" android:paddingRight="10.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/vertical_divider" android:showDividers="middle">
+        <sh.whisper.ui.WTextView android:textSize="18.0sp" android:textColor="@color/WDarkGrey_v5" android:gravity="center" android:id="@id/goal_count_title" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" whisper:weight="medium" />
+        <sh.whisper.ui.WTextView android:textSize="15.0sp" android:textColor="@color/WDarkGrey_v5" android:gravity="center_vertical" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/verified_badge_desc" android:drawableLeft="@drawable/unlock_verify_badge" android:drawablePadding="10.0dip" whisper:weight="medium" />
+        <sh.whisper.ui.WTextView android:textSize="15.0sp" android:textColor="@color/WDarkGrey_v5" android:gravity="center_vertical" android:paddingTop="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/featured_desc" android:drawableLeft="@drawable/happy_phone" android:drawablePadding="10.0dip" whisper:weight="medium" />
+    </LinearLayout>
+</FrameLayout>

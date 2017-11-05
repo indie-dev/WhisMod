@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/CreateGrey" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/layout_camera_buttons" android:background="@color/White" android:paddingLeft="30.0dip" android:paddingTop="7.0dip" android:paddingRight="30.0dip" android:paddingBottom="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ImageButton android:layout_gravity="center" android:id="@id/button_flash" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/create_camera_flash_auto" android:scaleType="centerInside" android:layout_weight="1.0" />
+        <ImageButton android:layout_gravity="center" android:id="@id/button_capture" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/create_camera_take_photo" android:scaleType="centerInside" android:layout_weight="1.0" />
+        <ImageButton android:layout_gravity="center" android:id="@id/button_switch_camera" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/create_camera_flip_camera" android:scaleType="centerInside" android:layout_weight="1.0" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/layout_camera_buttons" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <FrameLayout android:layout_gravity="center" android:id="@id/preview_container" android:background="@color/NotificationRed" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_gravity="center" android:id="@id/surface_holder" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <SurfaceView android:id="@id/camera_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <FrameLayout android:id="@id/focus_indicator_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <View android:id="@id/focus_indicator" android:layout_width="120.0dip" android:layout_height="120.0dip" />
+                </FrameLayout>
+            </RelativeLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/camera_transition_overlay" android:background="@color/Black" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <sh.whisper.ui.WhisperEditView android:layout_gravity="center" android:id="@id/whisper_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</RelativeLayout>

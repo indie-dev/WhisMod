@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <sh.whisper.ui.WTextView android:textSize="15.0sp" android:textColor="@color/WLightGrey_v5" android:paddingTop="20.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/related_feed_createtribecard_header" whisper:weight="medium" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/grey_border" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="16.0">
+            <sh.whisper.ui.AspectImageView android:id="@id/card_whisper_imageview" android:layout_width="0.0dip" android:layout_height="wrap_content" android:scaleType="centerCrop" android:layout_weight="5.0" />
+            <RelativeLayout android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_weight="11.0">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/card_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+                    <sh.whisper.ui.WTextView android:background="@color/ListDivider" android:layout_width="40.0dip" android:layout_height="1.0dip" android:layout_marginRight="10.0dip" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/create_card_icon" />
+                    <sh.whisper.ui.WTextView android:background="@color/ListDivider" android:layout_width="40.0dip" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" />
+                </LinearLayout>
+                <sh.whisper.ui.WTextView android:textSize="14.0sp" android:textColor="@color/WDarkGrey_v5" android:gravity="center" android:id="@id/card_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                <sh.whisper.ui.WTextView android:textSize="22.0sp" android:textColor="@color/WPurple_v5" android:id="@id/suggested_tribe_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:drawableLeft="@drawable/grey_pencil" android:drawablePadding="5.0dip" android:layout_above="@id/baseline" android:layout_centerHorizontal="true" whisper:weight="bold" />
+                <TextView android:id="@id/baseline" android:background="@color/ListDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <sh.whisper.ui.WTextView android:textSize="14.0sp" android:textColor="@color/White" android:gravity="center" android:layout_gravity="center" android:id="@id/create_tribe_button" android:background="@drawable/rounded_send_button_purple" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="40.0dip" android:text="@string/related_feed_createtribecard_button" whisper:weight="bold" />
+    </LinearLayout>
+    <sh.whisper.ui.WTextView android:textSize="15.0sp" android:textColor="@color/WLightGrey_v5" android:paddingTop="20.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/related_feed_relatedwhispers_header" whisper:weight="medium" />
+</merge>

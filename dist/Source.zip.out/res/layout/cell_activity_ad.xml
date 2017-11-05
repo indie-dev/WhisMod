@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:paddingTop="2.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto" xmlns:app1="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center" android:id="@id/main_layout" android:background="@color/whismod" android:paddingLeft="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <sh.whisper.ui.RoundedImageView android:id="@id/native_ad_icon_image" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_margin="10.0dip" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_centerVertical="true" app1:corner_radius="2.0dip" app1:round_background="true" />
+        <sh.whisper.ui.WTextView android:textSize="14.0sp" android:textColor="@color/WPurple_v5" android:ellipsize="end" android:id="@id/button_cta" android:background="@drawable/rounded_light_gray_with_medium_gray_borders" android:paddingLeft="10.0dip" android:paddingTop="3.0dip" android:paddingRight="10.0dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:maxLines="1" android:layout_alignParentRight="true" android:layout_centerVertical="true" app1:weight="medium" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/button_cta" android:layout_toRightOf="@id/native_ad_icon_image" android:layout_centerVertical="true">
+            <sh.whisper.ui.WTextView android:textSize="14.0sp" android:textColor="@color/Black" android:ellipsize="end" android:id="@id/native_ad_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" app1:weight="medium" />
+            <sh.whisper.ui.WTextView android:textSize="12.0sp" android:textColor="@color/WMediumGrey_v5" android:ellipsize="end" android:id="@id/sponsored_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/sponsored" android:maxLines="1" app1:weight="medium" />
+        </LinearLayout>
+        <View android:layout_marginLeft="34.0dip" android:layout_marginTop="10.0dip" android:layout_alignParentBottom="true" style="@style/Divider" />
+    </RelativeLayout>
+</FrameLayout>

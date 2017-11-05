@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/bulk_edit_header_container" android:background="@color/WMediumGrey_v5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/top_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <sh.whisper.ui.WTextView android:textSize="20.0sp" android:textColor="@color/White" android:layout_gravity="center_vertical" android:id="@id/bulk_edit_header_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:text="@string/messages_edit_mode_title" android:drawableLeft="@drawable/back_arrow_white" android:drawablePadding="15.0dip" whisper:weight="medium" />
+    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="5.0dip">
+        <ImageButton android:id="@id/bulk_edit_delete_button" android:background="@color/WMediumGrey_v5" android:padding="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/chat_batch_edit_delete" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <ImageButton android:id="@id/bulk_edit_mark_as_read_button" android:background="@color/WMediumGrey_v5" android:padding="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/chat_batch_edit_mark_read" android:scaleType="centerInside" android:layout_toLeftOf="@id/bulk_edit_delete_button" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:id="@id/single_feed_fragment_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <sh.whisper.ui.BackNavBar android:id="@id/top_bar" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/abs__action_bar_default_height" android:layout_alignParentTop="true" whisper:leftIconDrawable="@drawable/back_arrow" whisper:iconMargin="@dimen/top_bar_icon_margin" whisper:textSize="@dimen/top_bar_font_size" whisper:textPosition="left" whisper:textBackground="@color/transparent" />
+    <FrameLayout android:id="@id/fragment_container" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/abs__action_bar_default_height" />
+    <FrameLayout android:background="@drawable/gradient_gray_transparent_270" android:layout_width="fill_parent" android:layout_height="@dimen/nav_bar_shadow_height" android:layout_marginTop="@dimen/abs__action_bar_default_height" />
+    <ImageButton android:layout_gravity="bottom|center" android:id="@id/create_button" android:background="@color/transparent" android:layout_width="@dimen/create_button_size_single_feed_view" android:layout_height="@dimen/create_button_size_single_feed_view" android:layout_margin="16.0dip" android:src="@drawable/create_button" android:scaleType="fitCenter" whisper:layout_behavior="sh.whisper.ui.WSingleFeedViewCreateButtonBehavior" />
+</android.support.design.widget.CoordinatorLayout>

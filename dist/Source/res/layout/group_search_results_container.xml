@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:paddingLeft="1.0dip" android:paddingTop="11.0dip" android:paddingBottom="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <sh.whisper.ui.WTextView android:textSize="15.0sp" android:textColor="@color/WMediumGrey_v5" android:layout_gravity="center|left" android:id="@id/text_view_header_groups" android:layout_width="wrap_content" android:layout_height="wrap_content" whisper:weight="medium" />
+        <sh.whisper.ui.WButton android:textSize="15.0sp" android:textColor="@color/WPurple_v5" android:layout_gravity="center|right" android:id="@id/button_view_all" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/view_all" whisper:weight="medium" />
+    </FrameLayout>
+    <sh.whisper.ui.WTextView android:textSize="15.0sp" android:textColor="@color/WMediumGrey_v5" android:id="@id/text_view_header_whispers" android:paddingLeft="1.0dip" android:paddingTop="15.0dip" android:paddingBottom="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" whisper:weight="medium" />
+</merge>

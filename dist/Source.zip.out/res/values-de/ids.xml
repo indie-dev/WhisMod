@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="conversation_global_rating">7</item>
+    <item type="id" name="conversation_preview_text_id">3</item>
+    <item type="id" name="conversation_recipient_id">2</item>
+    <item type="id" name="conversation_thumbnail_id">1</item>
+    <item type="id" name="edit_frame_layout_id">6</item>
+    <item type="id" name="last_interaction_time_id">4</item>
+    <item type="id" name="unread_conversation_indicator_id">5</item>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <sh.whisper.ui.WTextView android:gravity="center_vertical" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawablePadding="3.0dip" android:layout_alignParentTop="true" />
+    <sh.whisper.ui.WTextView android:id="@id/sub_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_below="@id/text" />
+</merge>

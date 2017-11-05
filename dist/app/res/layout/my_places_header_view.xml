@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <sh.whisper.ui.WTextView android:textSize="15.0sp" android:textColor="@color/WLightGrey_v5" android:gravity="left" android:id="@id/my_places_header_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="5.0dip" android:text="@string/manage_my_places_my_places_title" whisper:weight="medium" />
+    <View style="@style/Divider" />
+    <ImageView android:id="@id/my_places_empty_image" android:background="@drawable/no_favorite_places" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginBottom="15.0dip" />
+    <sh.whisper.ui.WTextView android:textSize="16.0sp" android:textColor="@color/WMediumGrey_v5" android:gravity="center" android:id="@id/my_places_empty_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="@string/manage_my_places_empty_my_places" />
+</merge>

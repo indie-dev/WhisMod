@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/poll_card" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto"
+  android:visibility="gone"
+  >
+    <sh.whisper.ui.WTextView android:textSize="19.0sp" android:textColor="@color/WDarkGrey_v5" android:gravity="center" android:id="@id/poll_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="150.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" whisper:weight="bold" />
+    <sh.whisper.ui.WTextView android:textSize="17.0sp" android:textColor="@color/WMediumGrey_v5" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/poll_vote_count" android:background="@drawable/rounded_gray_borders" android:paddingLeft="45.0dip" android:paddingTop="5.0dip" android:paddingRight="45.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="15.0dip" whisper:weight="bold" />
+    <sh.whisper.ui.WButton android:textSize="17.0sp" android:textColor="@color/whismod" android:layout_gravity="center_horizontal" android:id="@id/poll_share" android:background="@drawable/purple_btn" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="15.0dip" android:text="@string/share_poll" android:drawableLeft="@drawable/shareicon" android:drawablePadding="10.0dip" whisper:weight="bold" />
+</LinearLayout>

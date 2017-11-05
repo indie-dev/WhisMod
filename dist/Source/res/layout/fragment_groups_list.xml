@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/White" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <sh.whisper.ui.BackNavBar android:layout_gravity="top" android:id="@id/top_bar" android:layout_width="fill_parent" android:layout_height="@dimen/top_bar_height" whisper:leftIconDrawable="@drawable/back_arrow" whisper:iconMargin="@dimen/top_bar_icon_margin" whisper:textSize="@dimen/top_bar_font_size" whisper:textPosition="left" whisper:textBackground="@color/transparent" />
+    <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:padding="10.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/top_bar_height" />
+    <FrameLayout android:layout_gravity="top" android:background="@drawable/gradient_gray_transparent_270" android:layout_width="fill_parent" android:layout_height="@dimen/nav_bar_shadow_height" android:layout_marginTop="@dimen/top_bar_height" />
+</FrameLayout>

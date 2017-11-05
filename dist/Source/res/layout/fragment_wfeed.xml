@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sh.whisper.ui.WNestedCoordinatorLayout android:background="@color/White" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:id="@id/quick_return" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar android:id="@id/tool_bar" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:minHeight="0.0dip" app:contentInsetStart="0.0dip" app:contentInsetLeft="0.0dip" />
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@id/ptr_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <sh.whisper.ui.ExoPlayerVideoRecyclerView android:id="@id/grid" android:clipToPadding="false" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@id/empty_feed_view_ptr" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <FrameLayout android:id="@id/empty_feed_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <View android:layout_gravity="bottom" android:id="@id/qr_shadow" android:background="@drawable/gradient_gray_transparent_270" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="4.0dip" app:layout_anchor="@id/quick_return" app:layout_anchorGravity="start|center|bottom" />
+</sh.whisper.ui.WNestedCoordinatorLayout>

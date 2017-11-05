@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <sh.whisper.ui.AspectImageView android:id="@id/cell_group_whisper_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" />
+    <FrameLayout android:id="@id/cell_group_whisper_video_frame" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center|right|top" android:id="@id/whisper_video_badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/feed_video_badge_layer_list" />
+    </FrameLayout>
+    <sh.whisper.ui.AspectImageView android:id="@id/cell_group_whisper_image_overlay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" />
+    <sh.whisper.ui.RoundedImageView android:id="@id/cell_group_whisper_icon" android:paddingLeft="5.0dip" android:layout_width="30.0dip" android:layout_height="25.0dip" android:scaleType="centerCrop" whisper:corner_radius="2.0dip" whisper:round_background="true" />
+    <sh.whisper.ui.WTextView android:textSize="13.0sp" android:textColor="@color/GroupNameGrey" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/cell_group_whisper_group_name" android:paddingLeft="5.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip" android:maxLines="2" whisper:weight="medium" />
+    <sh.whisper.ui.WTextView android:textSize="13.0sp" android:textColor="@color/HeartCountGrey" android:gravity="center_vertical" android:id="@id/cell_group_whisper_heart_count" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawableLeft="@drawable/meta_heart" android:drawablePadding="3.0dip" whisper:weight="medium" />
+</merge>

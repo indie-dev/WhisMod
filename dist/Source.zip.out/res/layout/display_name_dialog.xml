@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/whismod" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <sh.whisper.ui.WTextView android:textSize="20.0sp" android:textColor="@color/WDarkGrey_v5" android:gravity="center|left" android:layout_width="300.0dip" android:layout_height="48.0dip" android:layout_marginLeft="4.0dip" android:text="@string/settings_xml_display_name" whisper:weight="medium" />
+    <LinearLayout android:orientation="vertical" android:background="@color/ListDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <sh.whisper.ui.WEditText android:textColor="@color/WDarkGrey_v5" android:textColorHighlight="@color/LightPurple_v5" android:gravity="center" android:id="@id/display_name_edit_text" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="48.0dip" android:singleLine="true" android:selectAllOnFocus="true" android:textCursorDrawable="@drawable/purple_cursor" />
+    <LinearLayout android:orientation="vertical" android:background="@color/ListDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <sh.whisper.ui.WTextView android:textColor="@color/WPurple_v5" android:gravity="center" android:id="@id/cancel" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/settings_cancel_displayname_change" android:layout_weight="1.0" whisper:weight="medium" />
+        <LinearLayout android:orientation="vertical" android:background="@color/ListDivider" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <sh.whisper.ui.WTextView android:textColor="@color/WPurple_v5" android:gravity="center" android:id="@id/save" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/settings_save_displayname" android:layout_weight="1.0" whisper:weight="medium" />
+    </LinearLayout>
+</LinearLayout>

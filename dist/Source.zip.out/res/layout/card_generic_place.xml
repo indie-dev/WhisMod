@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/whismod" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <sh.whisper.ui.WTextView android:textSize="23.0sp" android:textColor="@color/WPurple_v5" android:gravity="center" android:id="@id/text_view_title" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" whisper:weight="medium" />
+    <sh.whisper.ui.WTextView android:textSize="12.0sp" android:textColor="@color/WMediumGrey_v5" android:gravity="center" android:id="@id/text_view_sub_text" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <sh.whisper.ui.WButton android:textSize="19.0sp" android:textColor="@color/whismod" android:gravity="center" android:layout_gravity="center" android:id="@id/button" android:background="@drawable/purple_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="16.0dip" whisper:weight="medium" />
+    <CheckBox android:theme="@android:style/Theme.Holo" android:textSize="12.0sp" android:textColor="@color/WLightGrey_v5" android:layout_gravity="center" android:id="@id/check_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/feed_create_notify" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.view.ViewPager android:id="@id/stories_viewpager" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="125.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+    <android.support.design.widget.TabLayout android:id="@id/stories_tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-15.0dip" android:layout_marginBottom="-15.0dip" android:layout_below="@id/stories_viewpager" whisper:tabIndicatorHeight="0.0dip" whisper:tabBackground="@drawable/tab_selector" whisper:tabGravity="center" whisper:tabPaddingStart="7.0dip" whisper:tabPaddingEnd="7.0dip" />
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="numberOfMessages">
+        <item quantity="other">Tu as %1$d nouveaux messages</item>
+        <item quantity="one">Tu as 1 nouveau message</item>
+    </plurals>
+    <plurals name="numberOfNotifications">
+        <item quantity="other">Tu as %1$d nouvelles notifications</item>
+        <item quantity="one">Tu as une nouvelle notification</item>
+    </plurals>
+    <plurals name="search_results">
+        <item quantity="other">%1$d résultats</item>
+        <item quantity="one">%1$d résultat</item>
+    </plurals>
+    <plurals name="time_ago_hours">
+        <item quantity="other">Il y a %1$d heures</item>
+        <item quantity="one">Il y a %1$d heure</item>
+    </plurals>
+    <plurals name="whisper_distance">
+        <item quantity="other">À %1$d miles</item>
+        <item quantity="one">À un mile</item>
+    </plurals>
+    <plurals name="group_members">
+        <item quantity="other">%1$d membres</item>
+        <item quantity="one">%1$d membre</item>
+    </plurals>
+    <plurals name="poll_vote_count">
+        <item quantity="other">%1$d votes</item>
+        <item quantity="one">%1$d vote</item>
+    </plurals>
+    <plurals name="promote_header_title_2">
+        <item quantity="other"> membres</item>
+        <item quantity="one"> membre</item>
+    </plurals>
+    <plurals name="promote_reminder_tooltip_subtitle">
+        <item quantity="other">Il ne manque que %1$d membres</item>
+        <item quantity="one">Il ne manque que %1$d membre</item>
+    </plurals>
+    <plurals name="replies_count">
+        <item quantity="other">%1$d réponses</item>
+        <item quantity="one">%1$d réponse</item>
+    </plurals>
+    <plurals name="secret_whisper_card_title">
+        <item quantity="other">Tu as %1$d Whispers Secrets !</item>
+        <item quantity="one">Tu as %1$d Whisper Secret !</item>
+    </plurals>
+    <plurals name="secret_whisper_left">
+        <item quantity="other">%1$d Whispers Secrets restants</item>
+        <item quantity="one">1 Whisper Secret restant</item>
+    </plurals>
+    <plurals name="time_ago_days">
+        <item quantity="other">Il y a %1$d jours</item>
+        <item quantity="one">Il y a %1$d jour</item>
+    </plurals>
+    <plurals name="time_ago_months">
+        <item quantity="other">Il y a %1$d mois</item>
+        <item quantity="one">Il y a %1$d mois</item>
+    </plurals>
+    <plurals name="time_ago_weeks">
+        <item quantity="other">Il y a %1$d semaines</item>
+        <item quantity="one">Il y a %1$d semaine</item>
+    </plurals>
+    <plurals name="time_ago_years">
+        <item quantity="other">Il y a %1$d ans</item>
+        <item quantity="one">Il y a %1$d an</item>
+    </plurals>
+    <plurals name="whisper_push_crossed_paths_message">
+        <item quantity="other">Vous avez rencontré %1$d personnes</item>
+        <item quantity="one">Vous avez rencontré %1$d personne</item>
+    </plurals>
+    <plurals name="time_ago_minutes">
+        <item quantity="other">Il y a %1$d minutes</item>
+        <item quantity="one">Il y a %1$d minute</item>
+    </plurals>
+    <plurals name="browser_replies_container_header_swipe_up_text">
+        <item quantity="other">BALAYE VERS LE HAUT POUR VOIR LES %1$d RÉPONSES</item>
+        <item quantity="one">BALAYE VERS LE HAUT POUR VOIR %1$d RÉPONSE</item>
+    </plurals>
+</resources>

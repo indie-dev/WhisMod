@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.TabLayout android:id="@id/tab_layout" android:background="@color/White" android:layout_width="fill_parent" android:layout_height="@dimen/top_bar_height" whisper:tabIndicatorColor="@color/WPurple_v5" whisper:tabGravity="fill" whisper:tabTextColor="@color/WMediumGrey_v5" whisper:tabSelectedTextColor="@color/WPurple_v5" />
+    <sh.whisper.ui.SwipingLockableViewPager android:id="@id/inbox_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

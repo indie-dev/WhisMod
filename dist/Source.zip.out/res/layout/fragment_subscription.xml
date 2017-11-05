@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/subscriptions_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:padding="10.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/create_button_size" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/error_view" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/half_create_button_size_with_margin">
+        <ImageView android:layout_width="66.0dip" android:layout_height="130.0dip" android:layout_marginBottom="30.0dip" android:src="@drawable/no_internet" />
+        <sh.whisper.ui.WTextView android:textSize="16.0sp" android:textColor="@color/WMediumGrey_v5" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:text="@string/empty_generic_error" android:lineSpacingExtra="10.0dip" />
+        <FrameLayout android:id="@id/refresh_button" android:layout_width="@dimen/create_button_size" android:layout_height="@dimen/create_button_size">
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/refresh_button_background" android:background="@drawable/refresh_bg" android:layout_width="@dimen/create_button_size" android:layout_height="@dimen/create_button_size" android:scaleType="center" />
+            <ImageButton android:layout_gravity="center" android:id="@id/refresh_button_arrow" android:background="@drawable/refresh_arrow" android:layout_width="@dimen/create_button_size" android:layout_height="@dimen/create_button_size" android:scaleType="center" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

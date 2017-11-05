@@ -1,0 +1,37 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: whisper.apk
+compressionType: false
+doNotCompress:
+- arsc
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '19'
+  targetSdkVersion: '22'
+sharedLibrary: false
+unknownFiles:
+  build-data.properties: '8'
+  protobuf.meta: '8'
+  HACKED-META-INF/services/io.grpc.ManagedChannelProvider: '8'
+  HACKED-META-INF/services/io.grpc.NameResolverProvider: '8'
+  com/google/api/client/repackaged/org/apache/commons/codec/language/dmrules.txt: '8'
+  error_prone/Annotations.gwt.xml: '8'
+  fabric/com.crashlytics.sdk.android.answers.properties: '8'
+  fabric/com.crashlytics.sdk.android.beta.properties: '8'
+  fabric/com.crashlytics.sdk.android.crashlytics-core.properties: '8'
+  fabric/com.crashlytics.sdk.android.crashlytics.properties: '8'
+  fabric/io.branch.sdk.android.library.properties: '8'
+  fabric/io.fabric.sdk.android.fabric.properties: '8'
+  jsr305_annotations/Jsr305_annotations.gwt.xml: '8'
+  third_party/java_src/error_prone/project/annotations/Annotations.gwt.xml: '8'
+  third_party/java_src/error_prone/project/annotations/Google_internal.gwt.xml: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.3.0
+versionInfo:
+  versionCode: '316'
+  versionName: 9.6.0

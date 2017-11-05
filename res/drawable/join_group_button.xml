@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false">
+        <shape>
+            <padding android:left="@dimen/join_button_padding" android:top="@dimen/join_button_padding" android:right="@dimen/join_button_padding" android:bottom="@dimen/join_button_padding" />
+            <solid android:color="@color/White" />
+            <corners android:radius="@dimen/join_button_radius" />
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <layer-list>
+            <item>
+                <shape>
+                    <padding android:left="@dimen/join_button_padding" android:top="@dimen/join_button_padding" android:right="@dimen/join_button_padding" android:bottom="@dimen/join_button_padding" />
+                    <solid android:color="@color/White" />
+                    <corners android:radius="@dimen/join_button_radius" />
+                </shape>
+            </item>
+            <item android:gravity="center">
+                <bitmap android:gravity="center" android:src="@drawable/purplecheck" />
+            </item>
+        </layer-list>
+    </item>
+</selector>

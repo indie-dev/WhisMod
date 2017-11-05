@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/search_header" android:background="@color/transparent" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/top_bar_height">
+        <ImageButton android:id="@id/search_clear_results_button" android:background="@color/whismod" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginRight="25.0dip" android:src="@drawable/exit_touch" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+        <sh.whisper.ui.WEditText android:textSize="17.0sp" android:textColor="@color/WDarkGrey_v5" android:textColorHint="@color/WLightGrey_v5" android:id="@id/search_friends_edittext" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:hint="@string/anonymously_invite_search_hint" android:singleLine="true" android:drawableLeft="@drawable/search_icon_purp" android:drawablePadding="10.0dip" android:layout_toLeftOf="@id/search_clear_results_button" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:imeOptions="actionSearch" android:textCursorDrawable="@drawable/purple_cursor" />
+        <View android:background="@color/ListDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/back_nav_bar_discover_shadow" android:background="@drawable/gradient_gray_transparent_270" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_alignTop="@id/search_header" />
+    <FrameLayout android:id="@id/invitation_sent_tooltip_container" android:background="@color/TranslucentBlack" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" layout="@layout/invitation_sent_tooltip" />
+    </FrameLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/search_header" />
+</RelativeLayout>

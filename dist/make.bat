@@ -1,0 +1,1 @@
+rm -R Source4.apk && cls && apk.bat b Source.zip.out && mv Source.zip.out/dist/Source.zip Source4.apk && cls && echo "passphrase is abcgold13" && jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore key.jks Source4.apk dev && cls && adb uninstall com.indie.mod && cls && adb install Source4.apk && cls

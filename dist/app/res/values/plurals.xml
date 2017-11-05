@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="numberOfMessages">
+        <item quantity="other">You have %d new messages</item>
+        <item quantity="one">Someone sent you a private message</item>
+    </plurals>
+    <plurals name="numberOfNotifications">
+        <item quantity="other">You have %d new notifications</item>
+        <item quantity="one">You have a new notification</item>
+    </plurals>
+    <plurals name="search_results">
+        <item quantity="other">%d Results</item>
+        <item quantity="zero">No Results</item>
+        <item quantity="one">%d Result</item>
+    </plurals>
+    <plurals name="time_ago_hours">
+        <item quantity="other">%d HOURS</item>
+        <item quantity="one">%d HOUR</item>
+    </plurals>
+    <plurals name="whisper_distance">
+        <item quantity="other">%d miles away</item>
+        <item quantity="one">1 mile away</item>
+    </plurals>
+    <plurals name="group_members">
+        <item quantity="other">%d members</item>
+        <item quantity="one">%d member</item>
+    </plurals>
+    <plurals name="poll_vote_count">
+        <item quantity="other">%d votes</item>
+        <item quantity="one">%d vote</item>
+    </plurals>
+    <plurals name="promote_header_title_2">
+        <item quantity="other"> members</item>
+        <item quantity="one"> member</item>
+    </plurals>
+    <plurals name="promote_reminder_tooltip_subtitle">
+        <item quantity="other">Just %d more members to go</item>
+        <item quantity="one">Just %d more member to go</item>
+    </plurals>
+    <plurals name="replies_count">
+        <item quantity="other">%d Replies</item>
+        <item quantity="one">%d Reply</item>
+    </plurals>
+    <plurals name="secret_whisper_card_title">
+        <item quantity="other">You have %d Secret Whispers!</item>
+        <item quantity="one">You have %d Secret Whisper!</item>
+    </plurals>
+    <plurals name="secret_whisper_left">
+        <item quantity="other">%d Secret Whispers left</item>
+        <item quantity="one">%d Secret Whisper left</item>
+    </plurals>
+    <plurals name="time_ago_days">
+        <item quantity="other">%d DAYS</item>
+        <item quantity="one">%d DAY</item>
+    </plurals>
+    <plurals name="time_ago_months">
+        <item quantity="other">%d MONTHS</item>
+        <item quantity="one">%d MONTH</item>
+    </plurals>
+    <plurals name="time_ago_weeks">
+        <item quantity="other">%d WEEKS</item>
+        <item quantity="one">%d WEEK</item>
+    </plurals>
+    <plurals name="time_ago_years">
+        <item quantity="other">%d YEARS</item>
+        <item quantity="one">%d YEAR</item>
+    </plurals>
+    <plurals name="whisper_push_crossed_paths_message">
+        <item quantity="other">"You've crossed paths with %d new people"</item>
+        <item quantity="one">"You've crossed paths with %d new person"</item>
+    </plurals>
+    <plurals name="replies_header">
+        <item quantity="other">SWIPE UP TO VIEW %d REPLIES</item>
+        <item quantity="one">SWIPE UP TO VIEW %d REPLY</item>
+    </plurals>
+</resources>

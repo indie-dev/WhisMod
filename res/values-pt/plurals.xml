@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="numberOfMessages">
+        <item quantity="other">Você tem %1$d novas mensagens</item>
+        <item quantity="one">Você tem %1$d nova mensagem</item>
+    </plurals>
+    <plurals name="numberOfNotifications">
+        <item quantity="other">Você tem %1$d novas notificações</item>
+        <item quantity="one">Você tem %1$d nova notificação</item>
+    </plurals>
+    <plurals name="search_results">
+        <item quantity="other">%1$d resultados</item>
+        <item quantity="one">%1$d resultado</item>
+    </plurals>
+    <plurals name="time_ago_hours">
+        <item quantity="other">%1$d horas atrás</item>
+        <item quantity="one">%1$d hora atrás</item>
+    </plurals>
+    <plurals name="whisper_distance">
+        <item quantity="other">%1$d milhas de distância</item>
+        <item quantity="one">%1$d milha de distância</item>
+    </plurals>
+    <plurals name="group_members">
+        <item quantity="other">%1$d membros</item>
+        <item quantity="one">%1$d membro</item>
+    </plurals>
+    <plurals name="poll_vote_count">
+        <item quantity="other">%1$d votos</item>
+        <item quantity="one">%1$d voto</item>
+    </plurals>
+    <plurals name="promote_header_title_2">
+        <item quantity="other"> membros</item>
+        <item quantity="one"> membro</item>
+    </plurals>
+    <plurals name="promote_reminder_tooltip_subtitle">
+        <item quantity="other">Apenas mais %1$d participantes para conseguir</item>
+        <item quantity="one">Apenas mais %1$d participante para conseguir</item>
+    </plurals>
+    <plurals name="replies_count">
+        <item quantity="other">%1$d respostas</item>
+        <item quantity="one">%1$d resposta</item>
+    </plurals>
+    <plurals name="secret_whisper_card_title">
+        <item quantity="other">Você tem %1$d Secret Whispers!</item>
+        <item quantity="one">Você tem %1$d Secret Whisper!</item>
+    </plurals>
+    <plurals name="secret_whisper_left">
+        <item quantity="other">%1$d secret whispers restantes</item>
+        <item quantity="one">1 secret whisper restante</item>
+    </plurals>
+    <plurals name="time_ago_days">
+        <item quantity="other">%1$d dias atrás</item>
+        <item quantity="one">%1$d dia atrás</item>
+    </plurals>
+    <plurals name="time_ago_months">
+        <item quantity="other">%1$d meses atrás</item>
+        <item quantity="one">%1$d mês atrás</item>
+    </plurals>
+    <plurals name="time_ago_weeks">
+        <item quantity="other">%1$d semanas atrás</item>
+        <item quantity="one">%1$d semana atrás</item>
+    </plurals>
+    <plurals name="time_ago_years">
+        <item quantity="other">%1$d anos atrás</item>
+        <item quantity="one">%1$d ano atrás</item>
+    </plurals>
+    <plurals name="whisper_push_crossed_paths_message">
+        <item quantity="other">Você cruzou caminho com %1$d pessoas novas</item>
+        <item quantity="one">Você cruzou caminho com %1$d pessoa nova</item>
+    </plurals>
+    <plurals name="time_ago_minutes">
+        <item quantity="other">%1$d minutos atrás</item>
+        <item quantity="one">%1$d minuto atrás</item>
+    </plurals>
+    <plurals name="browser_replies_container_header_swipe_up_text">
+        <item quantity="other">DESLIZE PARA CIMA PARA VER %1$d RESPOSTAS</item>
+        <item quantity="one">DESLIZE PARA CIMA PARA VER %1$d RESPOSTA</item>
+    </plurals>
+</resources>

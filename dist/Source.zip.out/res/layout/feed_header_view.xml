@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/feed_header_image_and_text" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_gravity="top" android:orientation="vertical" android:id="@id/feed_header_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/feed_header_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" />
+            <View android:id="@id/feed_header_image_overlay" android:background="@drawable/gradient_black_60_transparent_angle_90" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/feed_header_bottom_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <sh.whisper.ui.WEditText android:textSize="22.0sp" android:textColor="@color/whismod" android:ellipsize="end" android:layout_gravity="bottom" android:id="@id/feed_header_title" android:background="@color/transparent" android:paddingLeft="15.0dip" android:paddingBottom="15.0dip" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/tribe_name" android:maxLines="2" android:scrollHorizontally="false" android:drawablePadding="7.0dip" android:layout_weight="1.0" android:inputType="textCapSentences|textNoSuggestions" android:imeOptions="actionDone" whisper:weight="medium" />
+                <FrameLayout android:layout_gravity="bottom|center|right" android:id="@id/right_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/qr_feed_margin_right" android:layout_marginBottom="7.0dip">
+                    <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="33.0dip" android:layout_height="33.0dip" android:indeterminate="true" />
+                    <sh.whisper.ui.WJoinButton android:id="@id/join_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="80.0dip" />
+                    <ImageButton android:id="@id/image_select_button" android:background="@drawable/translucent_white_8_circle" android:padding="0.0dip" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/camera_icon" />
+                </FrameLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <sh.whisper.ui.WEditText android:textSize="15.0sp" android:textColor="@color/whismod" android:textColorHint="@color/whismod" android:ellipsize="end" android:id="@id/feed_header_description" android:background="@color/WPurple_v5" android:paddingLeft="15.0dip" android:paddingTop="15.0sp" android:paddingRight="15.0dip" android:paddingBottom="15.0sp" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/feed_description_default" android:cursorVisible="false" android:maxLines="6" android:scrollHorizontally="false" android:drawablePadding="7.0dip" android:inputType="textCapSentences|textNoSuggestions" android:imeOptions="actionDone" whisper:weight="medium" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/feed_header_buttons" android:layout_width="fill_parent" android:layout_height="@dimen/feed_sub_nav_button_height">
+            <ImageView android:id="@id/feed_header_whispers_button" android:background="@drawable/purple_nav_button_with_top_border" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/feed_sub_nav_whispers" android:scaleType="centerInside" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center" android:id="@id/feed_header_users_button" android:background="@drawable/purple_nav_button_with_top_and_side_border" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <sh.whisper.ui.WTextView android:textSize="15.0sp" android:textColor="@color/whismod" android:gravity="center" android:id="@id/feed_header_user_count" android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawableLeft="@drawable/white_tribes_icon" android:drawablePadding="5.0dip" whisper:weight="medium" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:id="@id/feed_header_promote_button" android:background="@drawable/purple_nav_button_with_top_and_side_border" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <sh.whisper.ui.WTextView android:textSize="15.0sp" android:textColor="@color/whismod" android:gravity="center" android:id="@id/feed_header_promote_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/promote" android:drawableLeft="@drawable/promote_badge_icon" android:drawablePadding="5.0dip" whisper:weight="medium" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

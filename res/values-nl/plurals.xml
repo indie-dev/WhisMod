@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="numberOfMessages">
+        <item quantity="other">"Je hebt %d nieuwe berichten "</item>
+        <item quantity="one">Iemand heeft je een privebericht gestuurd</item>
+    </plurals>
+    <plurals name="numberOfNotifications">
+        <item quantity="other">Je hebt %d nieuwe meldingen</item>
+        <item quantity="one">Je hebt een nieuwe melding</item>
+    </plurals>
+    <plurals name="search_results">
+        <item quantity="other">%d Resultaat</item>
+        <item quantity="zero">0 Resultaten</item>
+        <item quantity="one">%d Resultaten</item>
+    </plurals>
+    <plurals name="time_ago_hours">
+        <item quantity="other">Uren geleden</item>
+        <item quantity="one">1 uur geleden</item>
+    </plurals>
+    <plurals name="whisper_distance">
+        <item quantity="other">Minder dan %d kilometer afstand</item>
+        <item quantity="one">Minder dan 1 kilometer afstand</item>
+    </plurals>
+    <plurals name="time_ago_minutes">
+        <item quantity="other">%d Minuten geleden</item>
+        <item quantity="one">1 Minuut geleden</item>
+    </plurals>
+</resources>

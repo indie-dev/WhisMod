@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/whismod" android:paddingLeft="4.0dip" android:paddingTop="3.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <sh.whisper.ui.RoundedImageView android:id="@id/image_view_place_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" whisper:corner_radius="2.0dip" />
+    <ImageView android:id="@id/image_view_checked" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/unchecked" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/text_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_toLeftOf="@id/image_view_checked" android:layout_toRightOf="@id/image_view_place_icon" android:layout_centerVertical="true">
+        <sh.whisper.ui.WTextView android:textSize="16.0sp" android:textColor="@color/Black" android:ellipsize="end" android:id="@id/text_view_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" whisper:weight="medium" />
+        <sh.whisper.ui.WTextView android:textSize="10.0sp" android:textColor="@color/WMediumGrey_v5" android:ellipsize="end" android:id="@id/text_view_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <View android:id="@id/divider_line" android:layout_marginLeft="5.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="5.0dip" android:layout_alignParentBottom="true" style="@style/Divider" />
+</RelativeLayout>

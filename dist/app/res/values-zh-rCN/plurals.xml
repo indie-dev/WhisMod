@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="numberOfMessages">
+        <item quantity="other">你有%d条新私信</item>
+        <item quantity="one">有人给你发了一条私信</item>
+    </plurals>
+    <plurals name="numberOfNotifications">
+        <item quantity="other">你有%d条新通知</item>
+        <item quantity="one">你有一条新通知</item>
+    </plurals>
+    <plurals name="search_results">
+        <item quantity="other">%d个结果</item>
+        <item quantity="zero">%d个结果</item>
+        <item quantity="one">%d个结果</item>
+    </plurals>
+    <plurals name="time_ago_hours">
+        <item quantity="other">%d小时前</item>
+        <item quantity="one">1小时前</item>
+    </plurals>
+    <plurals name="whisper_distance">
+        <item quantity="other">%d公里内</item>
+        <item quantity="one">一公里内</item>
+    </plurals>
+    <plurals name="time_ago_minutes">
+        <item quantity="other">%d分钟前</item>
+        <item quantity="one">1分钟前</item>
+    </plurals>
+</resources>

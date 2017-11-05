@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/White" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layout_search_bar" android:background="@color/White" android:layout_width="fill_parent" android:layout_height="@dimen/top_bar_height" android:layout_alignParentTop="true">
+        <ImageButton android:id="@id/button_back" android:background="@color/transparent" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/back_arrow" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageButton android:id="@id/button_clear_search_text" android:background="@color/transparent" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:src="@drawable/exit" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <sh.whisper.ui.WProgressBar android:id="@id/loading_spinner" android:background="@color/transparent" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_margin="8.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <sh.whisper.ui.WEditText android:textSize="17.0sp" android:textColor="@color/CreateGrey" android:textColorHint="@color/WLightGrey_v5" android:gravity="center|left" android:id="@id/edit_text_search" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/search_for_a_school" android:singleLine="true" android:layout_toRightOf="@id/button_back" android:layout_centerVertical="true" android:imeOptions="actionSearch" android:textCursorDrawable="@drawable/purple_cursor" />
+    </RelativeLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:layout_gravity="top" android:id="@id/list_view_search_results" android:background="@color/White" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:layout_gravity="top" android:background="@drawable/gradient_gray_transparent_270" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+        <FrameLayout android:id="@id/loading_spinner_large" android:background="@color/HalfBlack" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <sh.whisper.ui.WProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>

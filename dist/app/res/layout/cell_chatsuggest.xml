@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <sh.whisper.ui.WProgressBar android:id="@id/chat_suggest_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/meta_and_whisper_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <sh.whisper.ui.WTextView android:textSize="14.0sp" android:textColor="@color/WMediumGrey_v5" android:gravity="center|top" android:id="@id/chat_suggest_meta" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" />
+        <RelativeLayout android:id="@id/whisper_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <sh.whisper.ui.RoundedImageView android:id="@id/chat_suggest_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="false" android:cropToPadding="false" android:layout_centerInParent="true" whisper:corner_radius="4.0dip" />
+            <FrameLayout android:id="@id/shadow" android:background="@drawable/whisper_shadow_white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/MessageBubbleMine" />
+    <corners android:topLeftRadius="@dimen/chat_bubble_corner_radius" android:topRightRadius="@dimen/chat_bubble_corner_radius" android:bottomLeftRadius="@dimen/chat_bubble_corner_radius" android:bottomRightRadius="@dimen/chat_bubble_corner_radius" />
+</shape>

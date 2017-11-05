@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="numberOfMessages">
+        <item quantity="other">У вас %d новых сообщений</item>
+        <item quantity="one">Кто-то прислал вам личное сообщение</item>
+    </plurals>
+    <plurals name="numberOfNotifications">
+        <item quantity="other">У вас %d новых уведомлений</item>
+        <item quantity="one">Вы получили новое уведомление</item>
+    </plurals>
+    <plurals name="search_results">
+        <item quantity="other">%d Результаты</item>
+        <item quantity="zero">0 Результат</item>
+        <item quantity="one">%d Результат</item>
+    </plurals>
+    <plurals name="time_ago_hours">
+        <item quantity="other">%d Менее суток</item>
+        <item quantity="one">1 час назад</item>
+    </plurals>
+    <plurals name="whisper_distance">
+        <item quantity="other">На расстоянии менее %d миль</item>
+        <item quantity="one">На расстоянии менее 1 мили</item>
+    </plurals>
+    <plurals name="time_ago_minutes">
+        <item quantity="other">%d Менее часа</item>
+        <item quantity="one">1 минуту назад</item>
+    </plurals>
+</resources>

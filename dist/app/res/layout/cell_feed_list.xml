@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/unread_indicator" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/purple_unread_circle" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <sh.whisper.ui.RoundedImageView android:id="@id/thumbnail" android:layout_width="@dimen/feed_cell_thumbnail_size" android:layout_height="@dimen/feed_cell_thumbnail_size" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:scaleType="centerCrop" android:layout_toRightOf="@id/unread_indicator" android:layout_centerVertical="true" whisper:corner_radius="2.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:layout_toLeftOf="@id/button_container" android:layout_toRightOf="@id/thumbnail" android:layout_centerVertical="true">
+        <sh.whisper.ui.WTextView android:textSize="17.0sp" android:textColor="@color/WDarkGrey_v5" android:ellipsize="end" android:id="@id/feed_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:drawablePadding="5.0dip" whisper:weight="medium" />
+        <sh.whisper.ui.WTextView android:textSize="16.0sp" android:textColor="@color/WMediumGrey_v5" android:id="@id/feed_user_count" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableLeft="@drawable/grey_tribes_icon" android:drawablePadding="7.0dip" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/button_container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageButton android:id="@id/right_image_button" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:minWidth="30.0dip" android:minHeight="30.0dip" />
+        <sh.whisper.ui.WProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:indeterminate="true" />
+        <sh.whisper.ui.WJoinButton android:layout_gravity="center_vertical" android:id="@id/join_or_create_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="80.0dip" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/invite_buttons_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <sh.whisper.ui.WTextView android:id="@id/invite_decline" android:background="@drawable/invite_decline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" />
+            <sh.whisper.ui.WTextView android:id="@id/invite_accept" android:background="@drawable/invite_accept" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </FrameLayout>
+</merge>

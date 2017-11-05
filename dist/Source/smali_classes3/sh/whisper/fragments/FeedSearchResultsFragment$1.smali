@@ -1,0 +1,66 @@
+.class Lsh/whisper/fragments/FeedSearchResultsFragment$1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lsh/whisper/fragments/FeedSearchResultsFragment;->onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Lsh/whisper/fragments/FeedSearchResultsFragment;
+
+
+# direct methods
+.method constructor <init>(Lsh/whisper/fragments/FeedSearchResultsFragment;)V
+    .locals 0
+
+    .prologue
+    .line 87
+    iput-object p1, p0, Lsh/whisper/fragments/FeedSearchResultsFragment$1;->a:Lsh/whisper/fragments/FeedSearchResultsFragment;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onClick(Landroid/view/View;)V
+    .locals 2
+
+    .prologue
+    .line 90
+    iget-object v0, p0, Lsh/whisper/fragments/FeedSearchResultsFragment$1;->a:Lsh/whisper/fragments/FeedSearchResultsFragment;
+
+    invoke-static {v0}, Lsh/whisper/fragments/FeedSearchResultsFragment;->a(Lsh/whisper/fragments/FeedSearchResultsFragment;)Landroid/support/v7/widget/RecyclerView;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    .line 91
+    iget-object v0, p0, Lsh/whisper/fragments/FeedSearchResultsFragment$1;->a:Lsh/whisper/fragments/FeedSearchResultsFragment;
+
+    invoke-static {v0}, Lsh/whisper/fragments/FeedSearchResultsFragment;->a(Lsh/whisper/fragments/FeedSearchResultsFragment;)Landroid/support/v7/widget/RecyclerView;
+
+    move-result-object v0
+
+    const/4 v1, 0x0
+
+    invoke-virtual {v0, v1}, Landroid/support/v7/widget/RecyclerView;->smoothScrollToPosition(I)V
+
+    .line 93
+    :cond_0
+    return-void
+.end method

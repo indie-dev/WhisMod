@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/story_top_bar" android:background="@color/whismod" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/top_bar_height" android:layout_alignParentTop="true">
+        <ImageButton android:id="@id/story_exit_button" android:background="@color/whismod" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/exit_touch" />
+        <sh.whisper.ui.WTextView android:textSize="13.0dip" android:textColor="@color/WLightGrey_v5" android:ellipsize="end" android:id="@id/story_url_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="http://whisper.sh/stories/bf8" android:maxLines="1" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/story_go_back_button" android:background="@color/whismod" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/btn_go_back_arrow" />
+        <ImageButton android:id="@id/story_go_forward_button" android:background="@color/whismod" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/btn_go_forward_arrow" />
+        <ImageButton android:id="@id/story_share_button" android:background="@color/whismod" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/overflow" />
+    </LinearLayout>
+    <WebView android:id="@id/base_web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/story_top_bar" />
+    <FrameLayout android:id="@id/back_nav_bar_discover_shadow" android:background="@drawable/gradient_gray_transparent_270" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginTop="@dimen/top_bar_height" />
+    <sh.whisper.ui.StoryWebViewPopupMenu android:id="@id/story_popup_menu" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

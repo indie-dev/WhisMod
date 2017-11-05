@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/White" android:layout_width="fill_parent" android:layout_height="@dimen/w_slider_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <sh.whisper.ui.WTextView android:textSize="13.0sp" android:textColor="@color/WPurple_v5" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/closer" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/slider_closer" whisper:weight="bold" />
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center" android:paddingLeft="18.0dip" android:paddingRight="18.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/here_slidebar" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+        <SeekBar android:layout_gravity="center" android:id="@id/slider" android:paddingLeft="18.0dip" android:paddingRight="18.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxHeight="@dimen/w_slider_height" android:max="99" android:progress="0" android:indeterminate="false" android:progressDrawable="@color/transparent" android:minHeight="@dimen/w_slider_height" android:thumb="@drawable/here_slider_selector" />
+    </FrameLayout>
+    <sh.whisper.ui.WTextView android:textSize="13.0sp" android:textColor="@color/WMediumGrey_v5" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/farther" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/slider_farther" />
+</LinearLayout>

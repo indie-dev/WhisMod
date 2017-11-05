@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/chat_disabled_feature_dialog" android:background="@color/TranslucentBlack" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/rounded_white_rectangle" android:padding="8.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="30.0dip">
+        <sh.whisper.ui.WTextView android:textSize="17.0sp" android:textColor="@color/WDarkGrey_v5" android:gravity="center" android:layout_gravity="center" android:id="@id/chat_disabled_feature_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="12.0dip" whisper:weight="medium" />
+        <FrameLayout android:layout_gravity="center" android:background="@drawable/light_gray_rounded_borders" android:layout_width="75.0dip" android:layout_height="2.0dip" android:layout_margin="8.0dip" />
+        <sh.whisper.ui.WTextView android:textSize="15.0sp" android:textColor="@color/WMediumGrey_v5" android:gravity="center" android:id="@id/chat_disabled_feature_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="10.0dip" />
+        <sh.whisper.ui.WButton android:textSize="17.0sp" android:textColor="@color/White" android:id="@id/chat_disabled_feature_button" android:background="@drawable/wanna_chat_btn" android:paddingBottom="3.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:text="@string/chat_nux_button" whisper:weight="medium" />
+    </LinearLayout>
+</FrameLayout>

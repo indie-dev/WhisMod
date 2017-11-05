@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:background="@color/White" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:id="@id/quick_return" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.design.widget.TabLayout android:id="@id/tab_layout" android:background="@color/White" android:layout_width="fill_parent" android:layout_height="@dimen/top_bar_height" whisper:tabIndicatorColor="@color/WPurple_v5" whisper:tabIndicatorHeight="3.0dip" whisper:tabGravity="fill" whisper:tabPadding="0.0dip" />
+    </android.support.design.widget.AppBarLayout>
+    <sh.whisper.ui.SwipingLockableViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" whisper:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <FrameLayout android:layout_gravity="center|top" android:id="@id/paper_airplane_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="bottom" android:id="@id/airplane_image" android:layout_width="wrap_content" android:layout_height="@dimen/top_bar_height" android:src="@drawable/paperairplane" />
+    </FrameLayout>
+    <View android:layout_gravity="bottom" android:id="@id/quick_return_shadow" android:background="@drawable/gradient_gray_transparent_270" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="4.0dip" whisper:layout_anchor="@id/view_pager" whisper:layout_anchorGravity="start|center|top" />
+</android.support.design.widget.CoordinatorLayout>

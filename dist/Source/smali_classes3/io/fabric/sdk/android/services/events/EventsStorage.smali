@@ -1,0 +1,65 @@
+.class public interface abstract Lio/fabric/sdk/android/services/events/EventsStorage;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract add([B)V
+.end method
+
+.method public abstract canWorkingFileStore(II)Z
+.end method
+
+.method public abstract deleteFilesInRollOverDirectory(Ljava/util/List;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List",
+            "<",
+            "Ljava/io/File;",
+            ">;)V"
+        }
+    .end annotation
+.end method
+
+.method public abstract deleteWorkingFile()V
+.end method
+
+.method public abstract getAllFilesInRollOverDirectory()Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List",
+            "<",
+            "Ljava/io/File;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract getBatchOfFilesToSend(I)Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(I)",
+            "Ljava/util/List",
+            "<",
+            "Ljava/io/File;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract getRollOverDirectory()Ljava/io/File;
+.end method
+
+.method public abstract getWorkingDirectory()Ljava/io/File;
+.end method
+
+.method public abstract getWorkingFileUsedSizeInBytes()I
+.end method
+
+.method public abstract isWorkingFileEmpty()Z
+.end method
+
+.method public abstract rollOver(Ljava/lang/String;)V
+.end method

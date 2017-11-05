@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <sh.whisper.ui.AspectRatioImageView android:id="@id/image_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <sh.whisper.ui.WTextView android:textSize="16.0dip" android:textColor="@color/whismod" android:gravity="center" android:layout_gravity="center" android:id="@id/text_view" android:layout_width="fill_parent" android:layout_height="fill_parent" whisper:weight="medium" />
+</FrameLayout>

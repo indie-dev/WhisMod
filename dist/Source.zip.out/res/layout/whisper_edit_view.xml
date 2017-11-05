@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <sh.whisper.ui.RoundedImageView android:layout_gravity="center" android:id="@id/whisper_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:adjustViewBounds="true" android:cropToPadding="false" />
+        <FrameLayout android:id="@id/whisper_video_frame" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center|right|top" android:id="@id/whisper_video_badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/browser_video_badge_layer_list" />
+        </FrameLayout>
+        <sh.whisper.ui.RoundedImageView android:layout_gravity="center" android:id="@id/dark_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/whisper_overlay" android:scaleType="centerCrop" />
+        <EditText android:textColor="@color/whismod" android:textColorHighlight="@color/WPurple_v5" android:gravity="center" android:layout_gravity="center" android:id="@id/whisper_edit_text" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/qc_inital_hint_text" android:inputType="textCapSentences|textMultiLine" android:textCursorDrawable="@drawable/white_cursor" />
+    </FrameLayout>
+    <sh.whisper.ui.WTextView android:textSize="15.0sp" android:textColor="@color/whismod" android:gravity="center" android:layout_gravity="bottom" android:id="@id/text_view_too_tall" android:background="#c0eb4437" android:padding="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/qc_whisper_too_tall" />
+</FrameLayout>

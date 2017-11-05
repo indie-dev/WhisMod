@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/Black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <sh.whisper.ui.BackNavBar android:id="@id/top_bar" android:layout_width="fill_parent" android:layout_height="@dimen/abs__action_bar_default_height" whisper:leftIconDrawable="@drawable/back_arrow_white" whisper:iconMargin="@dimen/top_bar_icon_margin" whisper:textSize="@dimen/top_bar_font_size" whisper:textPosition="left" whisper:textBackground="@color/transparent" whisper:backgroundColor="@color/Black" />
+    <ImageView android:id="@id/image_view" android:background="@color/Black" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

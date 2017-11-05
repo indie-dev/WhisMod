@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/main_scrolled_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:paddingLeft="4.0dip" android:paddingTop="4.0dip" android:paddingRight="4.0dip" android:paddingBottom="75.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/lockwithlines" />
+            <sh.whisper.ui.WTextView android:textSize="17.0sp" android:textColor="@color/WDarkGrey_v5" android:gravity="center" android:layout_gravity="center" android:id="@id/text_view_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginRight="25.0dip" android:layout_marginBottom="20.0dip" android:maxLines="2" whisper:weight="medium" />
+            <sh.whisper.ui.WTextView android:textSize="15.0sp" android:textColor="@color/WMediumGrey_v5" android:gravity="center" android:layout_gravity="center" android:id="@id/preorder_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="7.0dip" android:text="@string/locked_school_description" />
+            <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/button_here_now" android:background="@drawable/rounded_button_purple" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="25.0dip">
+                <sh.whisper.ui.WTextView android:textSize="17.0sp" android:textColor="@color/White" android:layout_gravity="center" android:id="@id/button_here_now_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/locked_school_button" android:textAllCaps="true" whisper:weight="bold" />
+                <ProgressBar android:layout_gravity="center" android:id="@id/button_here_now_progress_bar" android:visibility="gone" android:layout_width="26.0dip" android:layout_height="26.0dip" android:indeterminate="true" />
+            </FrameLayout>
+        </LinearLayout>
+        <FrameLayout android:background="@drawable/whisper_shadow_white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</merge>

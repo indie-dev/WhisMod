@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="numberOfMessages">
+        <item quantity="other">Kamu memiliki %1$d pesan baru</item>
+    </plurals>
+    <plurals name="numberOfNotifications">
+        <item quantity="other">Kamu memiliki %1$d notifikasi baru</item>
+    </plurals>
+    <plurals name="search_results">
+        <item quantity="other">%1$d Hasil</item>
+    </plurals>
+    <plurals name="time_ago_hours">
+        <item quantity="other">%1$d jam yang lalu</item>
+    </plurals>
+    <plurals name="whisper_distance">
+        <item quantity="other">%1$d mil jauhnya</item>
+    </plurals>
+    <plurals name="group_members">
+        <item quantity="other">%1$d anggota</item>
+    </plurals>
+    <plurals name="poll_vote_count">
+        <item quantity="other">%1$d suara</item>
+    </plurals>
+    <plurals name="promote_header_title_2">
+        <item quantity="other"> anggota</item>
+    </plurals>
+    <plurals name="promote_reminder_tooltip_subtitle">
+        <item quantity="other">Kurang %1$d anggota lagi untuk mencapainya</item>
+    </plurals>
+    <plurals name="replies_count">
+        <item quantity="other">%1$d Balasan</item>
+    </plurals>
+    <plurals name="time_ago_days">
+        <item quantity="other">%1$d hari yang lalu</item>
+    </plurals>
+    <plurals name="time_ago_months">
+        <item quantity="other">%1$d bulan yang lalu</item>
+    </plurals>
+    <plurals name="time_ago_weeks">
+        <item quantity="other">%1$d minggu yang lalu</item>
+    </plurals>
+    <plurals name="time_ago_years">
+        <item quantity="other">%1$d tahun yang lalu</item>
+    </plurals>
+    <plurals name="whisper_push_crossed_paths_message">
+        <item quantity="other">Kamu sudah bertemu dengan %1$d orang baru</item>
+    </plurals>
+    <plurals name="time_ago_minutes">
+        <item quantity="other">%1$d mnt yang lalu</item>
+    </plurals>
+    <plurals name="browser_replies_container_header_swipe_up_text">
+        <item quantity="other">GESER KE ATAS UNTUK MENAMPILKAN %1$d BALASAN</item>
+    </plurals>
+</resources>

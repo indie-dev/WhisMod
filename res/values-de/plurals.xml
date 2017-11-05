@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="numberOfMessages">
+        <item quantity="other">Du hast %1$d neue Nachrichten</item>
+        <item quantity="one">Du hast %1$d neue Nachricht</item>
+    </plurals>
+    <plurals name="numberOfNotifications">
+        <item quantity="other">Du hast %1$d neue Benachrichtigungen</item>
+        <item quantity="one">Du hast %1$d neue Benachrichtigung</item>
+    </plurals>
+    <plurals name="search_results">
+        <item quantity="other">%1$d Ergebnisse</item>
+        <item quantity="one">%1$d Ergebnis</item>
+    </plurals>
+    <plurals name="time_ago_hours">
+        <item quantity="other">Vor %1$d Stunden</item>
+        <item quantity="one">Vor %1$d Stunde</item>
+    </plurals>
+    <plurals name="whisper_distance">
+        <item quantity="other">%1$d Meilen entfernt</item>
+        <item quantity="one">%1$d Meile entfernt</item>
+    </plurals>
+    <plurals name="group_members">
+        <item quantity="other">%1$d Mitglieder</item>
+        <item quantity="one">%1$d Mitglied</item>
+    </plurals>
+    <plurals name="poll_vote_count">
+        <item quantity="other">%1$d Stimmen</item>
+        <item quantity="one">%1$d Stimme</item>
+    </plurals>
+    <plurals name="promote_header_title_2">
+        <item quantity="other"> Mitglieder</item>
+        <item quantity="one">Mitglied</item>
+    </plurals>
+    <plurals name="promote_reminder_tooltip_subtitle">
+        <item quantity="other">Nur noch %1$d Mitglieder mehr</item>
+        <item quantity="one">Nur noch %1$d Mitglied mehr</item>
+    </plurals>
+    <plurals name="replies_count">
+        <item quantity="other">%1$d Antworten</item>
+        <item quantity="one">%1$d Antwort</item>
+    </plurals>
+    <plurals name="secret_whisper_card_title">
+        <item quantity="other">Du hast %1$d geheime Whisper!</item>
+        <item quantity="one">Du hast %1$d geheimes Whisper!</item>
+    </plurals>
+    <plurals name="secret_whisper_left">
+        <item quantity="other">Noch %1$d geheime Whisper</item>
+        <item quantity="one">Noch 1 geheimes Whisper</item>
+    </plurals>
+    <plurals name="time_ago_days">
+        <item quantity="other">Vor %1$d Tagen</item>
+        <item quantity="one">Vor %1$d Tag</item>
+    </plurals>
+    <plurals name="time_ago_months">
+        <item quantity="other">Vor %1$d Monaten</item>
+        <item quantity="one">Vor %1$d Monat</item>
+    </plurals>
+    <plurals name="time_ago_weeks">
+        <item quantity="other">Vor %1$d Wochen</item>
+        <item quantity="one">Vor %1$d Woche</item>
+    </plurals>
+    <plurals name="time_ago_years">
+        <item quantity="other">Vor %1$d Jahren</item>
+        <item quantity="one">Vor %1$d Jahr</item>
+    </plurals>
+    <plurals name="whisper_push_crossed_paths_message">
+        <item quantity="other">Du hast mit %1$d neuen Leuten Wege gekreuzt</item>
+        <item quantity="one">Du hast mit %1$d neuen Person Wege gekreuzt</item>
+    </plurals>
+    <plurals name="time_ago_minutes">
+        <item quantity="other">Vor %1$d Minuten</item>
+        <item quantity="one">Vor %1$d Minute</item>
+    </plurals>
+    <plurals name="browser_replies_container_header_swipe_up_text">
+        <item quantity="other">NACH OBEN WISCHEN, UM %1$d ANTWORTEN ANZUZEIGEN</item>
+        <item quantity="one">NACH OBEN WISCHEN, UM %1$d ANTWORT ANZUZEIGEN</item>
+    </plurals>
+</resources>

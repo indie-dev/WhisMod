@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:id="@id/browser_fragment_view" android:background="@color/White" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:id="@id/browser_app_bar_layout" android:background="@color/transparent" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stateListAnimator="@null">
+        <android.support.design.widget.CollapsingToolbarLayout android:id="@id/browser_collapsing_toolbar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="exitUntilCollapsed|scroll" app:contentScrim="@drawable/gradient_gray_transparent_90" app:titleEnabled="false">
+            <sh.whisper.ui.WhisperImageViewPager android:id="@id/wviewpager" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_collapseMode="parallax" />
+            <ImageView android:layout_gravity="center|top" android:id="@id/loading_image" android:background="@color/White" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <android.support.v7.widget.Toolbar android:layout_gravity="top" android:id="@id/browser_toolbar" android:background="@drawable/gradient_gray_transparent_270" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/top_bar_height" android:minHeight="@dimen/top_bar_height" app:layout_collapseMode="pin" app:navigationIcon="@drawable/exit_browser_white">
+                <ImageView android:layout_gravity="right" android:id="@id/browser_zoom" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/expand_whisper_white" />
+            </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.CollapsingToolbarLayout>
+        <sh.whisper.ui.BrowserMetaView android:id="@id/browser_meta_view" android:layout_width="fill_parent" android:layout_height="@dimen/story_share_height" />
+    </android.support.design.widget.AppBarLayout>
+    <sh.whisper.ui.ExoPlayerVideoRecyclerView android:id="@id/browser_recyclerview" android:clipToPadding="false" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <View android:layout_gravity="bottom" android:id="@id/meta_shadow" android:background="@drawable/gradient_gray_transparent_270" android:layout_width="fill_parent" android:layout_height="4.0dip" android:alpha="0.0" app:layout_anchor="@id/browser_app_bar_layout" app:layout_anchorGravity="bottom" />
+    <View android:id="@id/turn_off_popup_menu_trigger" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_anchor="@id/wviewpager" app:layout_anchorGravity="bottom">
+        <sh.whisper.ui.WBrowserOptionsPopupMenu android:id="@id/overflow_popup_menu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <sh.whisper.ui.WTextView android:textColor="@color/WMediumGrey_v5" android:gravity="center" android:layout_gravity="top" android:id="@id/view_pre_whisper" android:background="@color/White" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/view_pre_whisper_banner_height" android:text="@string/view_pre_whisper" android:maxLines="1" app:weight="medium" />
+    <FrameLayout android:id="@id/browser_tooltip_container" android:background="@color/TranslucentBlack" android:padding="10.0dip" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_gravity="center" android:id="@id/reply_to_join_group_tooltip" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/reply_to_join_group_tooltip" />
+    </FrameLayout>
+</android.support.design.widget.CoordinatorLayout>

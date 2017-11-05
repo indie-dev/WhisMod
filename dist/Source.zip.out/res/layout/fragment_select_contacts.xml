@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/whismod" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/secret_whisper_layout" android:background="@color/CreateGrey" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:background="@drawable/create_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignBottom="@id/secret_whisper_image" />
+        <sh.whisper.ui.RoundedImageView android:id="@id/secret_whisper_image" android:layout_width="144.0dip" android:layout_height="204.0dip" android:layout_margin="10.0dip" android:src="@drawable/w_loading_medium" android:scaleType="centerCrop" android:layout_centerHorizontal="true" whisper:corner_radius="2.0dip" />
+        <ImageView android:id="@id/secret_whisper_video_badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/feed_video_badge_layer_list" android:layout_alignTop="@id/secret_whisper_image" android:layout_alignRight="@id/secret_whisper_image" />
+    </RelativeLayout>
+    <sh.whisper.ui.ContactList android:id="@id/contacts_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

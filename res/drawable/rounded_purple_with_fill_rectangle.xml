@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/LightPurpleButtonFill" />
+    <stroke android:width="1.0dip" android:color="@color/WPurple_v5" />
+    <corners android:radius="1.2999878dip" />
+    <padding android:left="4.0dip" android:top="0.0dip" android:right="4.0dip" android:bottom="2.0dip" />
+</shape>

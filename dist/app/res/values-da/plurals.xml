@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="numberOfMessages">
+        <item quantity="other">Du har %d nye beskeder</item>
+        <item quantity="one">Nogen har sendt dig en privat besked</item>
+    </plurals>
+    <plurals name="numberOfNotifications">
+        <item quantity="other">Du har %d nye notifikationer</item>
+        <item quantity="one">Du har en ny notifikation</item>
+    </plurals>
+    <plurals name="search_results">
+        <item quantity="other">%d Resultater</item>
+        <item quantity="zero">0 Resultat</item>
+        <item quantity="one">%d Resultat</item>
+    </plurals>
+    <plurals name="time_ago_hours">
+        <item quantity="other">%d Timer siden</item>
+        <item quantity="one">1 Time siden</item>
+    </plurals>
+    <plurals name="whisper_distance">
+        <item quantity="other">Mindre end %d km væk</item>
+        <item quantity="one">Mindre end 1 km væk</item>
+    </plurals>
+    <plurals name="time_ago_minutes">
+        <item quantity="other">%d Minutter siden</item>
+        <item quantity="one">1 Minuuttia siden</item>
+    </plurals>
+</resources>

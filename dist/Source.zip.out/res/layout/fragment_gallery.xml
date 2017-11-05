@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/whismod" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <sh.whisper.ui.WTextView android:textSize="25.0sp" android:textColor="@color/Black" android:gravity="center" android:id="@id/text_view_no_images" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/qc_no_gallery_images" />
+    <GridView android:layout_gravity="center" android:id="@id/gridview_gallery" android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawSelectorOnTop="false" />
+</FrameLayout>

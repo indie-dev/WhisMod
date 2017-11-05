@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
+    <sh.whisper.ui.WTextView android:textColor="@color/WMediumGrey_v5" android:id="@id/text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="6.0dip" android:text="@string/stories_of_the_day" whisper:weight="medium" />
+    <android.support.v4.view.ViewPager android:id="@id/view_pager" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/stories_view_pager_height" android:layout_marginTop="6.0dip" />
+</merge>
