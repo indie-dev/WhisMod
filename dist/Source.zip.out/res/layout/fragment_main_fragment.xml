@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
-    <android.support.v4.view.ViewPager android:id="@id/viewpager" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <android.support.v4.view.ViewPager android:id="@id/viewpager" android:background="@color/whismod" android:layout_width="fill_parent" android:layout_height="fill_parent" />
     <sh.whisper.ui.WSlidingTabLayout android:layout_gravity="bottom" android:id="@id/bottom_bar" android:layout_width="fill_parent" android:layout_height="@dimen/create_button_size_with_margin" />
     <FrameLayout android:id="@id/secret_whisper_nux_container" android:background="@color/TranslucentBlack" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
         <FrameLayout android:gravity="center" android:layout_gravity="bottom" android:id="@id/secret_whisper_nux" android:background="@drawable/pointy_box" android:padding="2.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="280.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="90.0dip">

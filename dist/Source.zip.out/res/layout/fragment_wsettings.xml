@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/whismod" android:layout_width="fill_parent" android:layout_height="fill_parent"
+<RelativeLayout android:background="@color/White" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
-    <sh.whisper.ui.BackNavBar android:id="@id/back_nav_bar_settings" android:layout_width="fill_parent" android:layout_height="@dimen/abs__action_bar_default_height" whisper:leftIconDrawable="@drawable/back_arrow" whisper:iconMargin="@dimen/top_bar_icon_margin" whisper:text="@string/settings_fragment_title" whisper:textSize="@dimen/top_bar_font_size" whisper:textPosition="left" whisper:textBackground="@color/transparent" />
+    <sh.whisper.ui.BackNavBar android:background="@color/whismod" android:id="@id/back_nav_bar_settings" android:layout_width="fill_parent" android:layout_height="@dimen/abs__action_bar_default_height" whisper:leftIconDrawable="@drawable/back_arrow" whisper:iconMargin="@dimen/top_bar_icon_margin" whisper:text="@string/settings_fragment_title" whisper:textSize="@dimen/top_bar_font_size" whisper:textPosition="left" whisper:textBackground="@color/transparent" />
     <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/back_nav_bar_settings">
         <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
             <sh.whisper.ui.WTextView android:textSize="15.0sp" android:textColor="@color/WPurple_v5" android:id="@id/profile_title" android:layout_width="fill_parent" android:layout_height="18.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:text="@string/settings_xml_profile_title" />

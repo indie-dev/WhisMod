@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:orientation="vertical" android:background="@color/whismod" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whisper="http://schemas.android.com/apk/res-auto">
-    <sh.whisper.ui.ProfileBackNavBar android:id="@id/top_bar" android:layout_width="fill_parent" android:layout_height="@dimen/abs__action_bar_default_height" whisper:leftIconDrawable="@drawable/back_arrow" whisper:iconMargin="@dimen/top_bar_icon_margin" whisper:text="@string/profile_fragment_title" whisper:textSize="@dimen/top_bar_font_size" whisper:textPosition="left" whisper:textBackground="@color/transparent" />
+    <sh.whisper.ui.ProfileBackNavBar android:id="@id/top_bar" android:layout_width="fill_parent" android:layout_height="@dimen/abs__action_bar_default_height" whisper:leftIconDrawable="@drawable/back_arrow" whisper:iconMargin="@dimen/top_bar_icon_margin" whisper:text="@string/profile_fragment_title" whisper:textSize="@dimen/top_bar_font_size" whisper:textPosition="left" whisper:textBackground="@color/White" />
     <FrameLayout android:background="@drawable/gradient_gray_transparent_270" android:layout_width="fill_parent" android:layout_height="4.0dip" />
     <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
         <LinearLayout android:orientation="vertical" android:background="@color/whismod" android:layout_width="fill_parent" android:layout_height="wrap_content">

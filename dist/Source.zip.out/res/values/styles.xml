@@ -319,7 +319,7 @@
     </style>
     <style name="Base.Widget.AppCompat.ActionBar.TabView" parent="">
         <item name="android:gravity">center_horizontal</item>
-        <item name="android:background">@drawable/abc_tab_indicator_material</item>
+        <item name="android:background">@color/whismod</item>
         <item name="android:paddingLeft">16.0dip</item>
         <item name="android:paddingRight">16.0dip</item>
         <item name="android:layout_width">0.0dip</item>
@@ -328,7 +328,7 @@
     </style>
     <style name="Base.Widget.AppCompat.ActionButton" parent="@style/RtlUnderlay.Widget.AppCompat.ActionButton">
         <item name="android:gravity">center</item>
-        <item name="android:background">?actionBarItemBackground</item>
+        <item name="android:background">@color/whismod</item>
         <item name="android:scaleType">center</item>
         <item name="android:minWidth">@dimen/abc_action_button_min_width_material</item>
         <item name="android:minHeight">@dimen/abc_action_button_min_height_material</item>
@@ -594,6 +594,10 @@
         <item name="android:spinnerItemStyle">@style/SpinnerItem</item>
         <item name="android:textColorHighlight">@color/LightPurple_v5</item>
         <item name="android:homeAsUpIndicator">@drawable/ic_back_chevron_padded_right</item>
+        <item name="colorPrimary">@color/whismod</item>
+    </style>
+    <style name="MainActionBar">
+        <item name="colorControlNormal">@color/whismod</item>
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="@android:style/Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -729,7 +733,7 @@
         <item name="colorBackgroundFloating">@color/background_floating_material_light</item>
     </style>
     <style name="Base.V14.Widget.Design.AppBarLayout" parent="@android:style/Widget">
-        <item name="android:background">?colorPrimary</item>
+        <item name="android:background">@color/whismod</item>
     </style>
     <style name="Base.V7.Theme.AppCompat" parent="@style/Platform.AppCompat">
         <item name="android:panelBackground">@android:color/transparent</item>
